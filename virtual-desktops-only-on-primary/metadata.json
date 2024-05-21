@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "wsdfhjxc"
+            },
+            {
+                "Name": "Pete-Hamlin"
+            }
+        ],
+        "Description": "Switchable virtual desktops only on the primary monitor",
+        "Icon": "preferences-desktop-virtual",
+        "Id": "virtual-desktops-only-on-primary",
+        "License": "GPLv3",
+        "Name": "Virtual Desktops Only On Primary",
+        "Version": "0.2"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
