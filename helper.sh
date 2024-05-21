@@ -7,7 +7,7 @@ printUsage() {
 
 install() {
     local scriptName=$1
-    kpackagetool6 -i "$scriptName"
+    kpackagetool6 --type=KWin/Script -i "$scriptName"
 }
 
 uninstall() {
